@@ -3,7 +3,7 @@ import backgroundImg from "/assets/Hello.png";
 
 export const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
-  const fullText = "<Hello Wolrd, This is Favour/>";
+  const fullText = "<Hello World, This is Favour/>";
 
   useEffect(() => {
     let index = 0;
